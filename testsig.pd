@@ -1,0 +1,14 @@
+#N canvas 1222 63 1366 685 12;
+#X obj 236 213 sig~;
+#X obj 105 102 hsl 230 19 20 20000 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X text 153 125 Test Signal Frequency (Hz);
+#X obj 236 237 outlet~;
+#X floatatom 102 126 7 0 0 0 - - - 0;
+#X obj 339 204 b;
+#X obj 332 234 outlet;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 4 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X coords 0 -1 1 1 242 47 2 100 100;
