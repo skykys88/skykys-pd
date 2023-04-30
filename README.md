@@ -1,4 +1,4 @@
 # skykys-pd
 some of my pd objects
 
-if you are smart enough to find this library you probably can figure it out yourself
+The names are usually explanatory, they are mostly used for my pre-coded project due to its harsh processing nature, these are highly not recommended for live coding.
